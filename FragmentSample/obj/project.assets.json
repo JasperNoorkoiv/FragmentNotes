@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JasperNoorkõiv\\Desktop\\KTA17E-master\\FragmentSample\\FragmentSample\\FragmentSample.csproj",
+      "projectUniqueName": "C:\\Users\\JasperNoorkõiv\\Desktop\\KTA17E-master\\FragmentSample\\FragmentNotes\\FragmentSample\\FragmentSample.csproj",
       "projectName": "FragmentSample",
-      "projectPath": "C:\\Users\\JasperNoorkõiv\\Desktop\\KTA17E-master\\FragmentSample\\FragmentSample\\FragmentSample.csproj",
+      "projectPath": "C:\\Users\\JasperNoorkõiv\\Desktop\\KTA17E-master\\FragmentSample\\FragmentNotes\\FragmentSample\\FragmentSample.csproj",
       "packagesPath": "C:\\Users\\JasperNoorkõiv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JasperNoorkõiv\\Desktop\\KTA17E-master\\FragmentSample\\FragmentSample\\obj\\",
+      "outputPath": "C:\\Users\\JasperNoorkõiv\\Desktop\\KTA17E-master\\FragmentSample\\FragmentNotes\\FragmentSample\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
