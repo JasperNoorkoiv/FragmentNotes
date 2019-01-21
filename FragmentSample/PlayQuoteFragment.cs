@@ -45,8 +45,8 @@ namespace FragmentSample
             Button editButton = view.FindViewById<Button>(Resource.Id.button_edit);
 
             // second view items
-            TextInputEditText editTitle = view.FindViewById<TextInputEditText>(Resource.Id.textInputEditText1);
-            TextInputEditText editNote = view.FindViewById<TextInputEditText>(Resource.Id.textInputEditText2);
+            EditText editTitle = view.FindViewById<EditText>(Resource.Id.textInputEditText1);
+            EditText editNote = view.FindViewById<EditText>(Resource.Id.textInputEditText2);
             Button saveEditButton = view.FindViewById<Button>(Resource.Id.button_save_edit);
 
             // switch to edit mode

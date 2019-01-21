@@ -25,9 +25,12 @@ namespace FragmentSample
 
         public override void OnActivityCreated(Bundle savedInstanceState)
         {
+            var DatabaseHelper = new DatabaseHelper();
+            var titles = DatabaseHelper.GetAllNotes().ToList().Select(p => p.Title).ToArray();
             base.OnActivityCreated(savedInstanceState);
             ListAdapter = new ArrayAdapter<string>(Activity,
-                Android.Resource.Layout.SimpleListItemActivated1, Shakespeare.Titles);
+                Android.Resource.Layout.SimpleListItemActivated1, titles);
+            
 
             if(savedInstanceState != null)
             {
@@ -65,8 +68,9 @@ namespace FragmentSample
                 var playQuoteFragment = FragmentManager.FindFragmentById(Resource.Id.playquote_container)
                     as PlayQuoteFragment;
 
-                if(playQuoteFragment == null || playQuoteFragment.PlayId != playId)
+                if(playQuoteFragment == null || playQuoteFragment.NoteId != playId)
                 {
+
                     var container = Activity.FindViewById(Resource.Id.playquote_container);
                     var quoteFrag = PlayQuoteFragment.NewInstance(selectedPlayId);
 

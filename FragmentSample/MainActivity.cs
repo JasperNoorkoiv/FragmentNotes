@@ -22,6 +22,14 @@ namespace FragmentSample
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.activity_main);
+
+            File.Delete(Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myNotes2.db3"));
+            databaseHelper.CreateDatabaseWithTable();
+
+            for (int i = 0; i < TitleList.Count; i++)
+            {
+                databaseHelper.AddNote(TitleList[i], NoteList[i]);
+            }
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
