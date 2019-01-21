@@ -8,14 +8,20 @@ using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
+using SQLite;
 using Android.Widget;
 
 namespace FragmentSample
 {
     class Note
     {
-        public int Id { get; set; }
+        [PrimaryKey, AutoIncrement, Column("_id")]
+        public int ID { get; set; }
+        [MaxLength(255)]
         public string Title { get; set; }
+        [MaxLength(255)]
         public string Content { get; set; }
+        [MaxLength(255)]
+        public DateTime CreationTime { get; set; }
     }
 }

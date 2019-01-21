@@ -56,6 +56,9 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreateNotesActivity.cs" />
+    <Compile Include="DatabaseHelper.cs" />
+    <Compile Include="FileHandler.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="PlayQuoteActivity.cs" />
@@ -118,7 +121,7 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\CrearteNotes.axml">
+    <AndroidResource Include="Resources\layout\CreateNotes.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
