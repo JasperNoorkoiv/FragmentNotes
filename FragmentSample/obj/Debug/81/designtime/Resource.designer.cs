@@ -2234,7 +2234,7 @@ namespace FragmentSample
 			public const int avd_show_password = 2131296341;
 			
 			// aapt resource value: 0x7F010003
-			public const int baseline_keyboard_backspace_24 = 2130771971;
+			public const int baseline_note_add_24 = 2130771971;
 			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
