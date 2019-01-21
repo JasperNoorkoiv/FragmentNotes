@@ -7,13 +7,14 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
+using Android.Support.V7.Widget;
 using Android.Views;
-using SQLite;
 using Android.Widget;
+using SQLite;
 
 namespace FragmentSample
 {
-    class Note
+    public class Note
     {
         [PrimaryKey, AutoIncrement, Column("_id")]
         public int ID { get; set; }

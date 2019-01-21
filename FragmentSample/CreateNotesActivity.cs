@@ -15,6 +15,8 @@ namespace FragmentSample
     [Activity(Label = "CreateNotesActivity")]
     public class CreateNotesActivity : Activity
     {
+        DatabaseHelper databaseHelper = new DatabaseHelper();
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -30,6 +32,7 @@ namespace FragmentSample
 
             databaseHelper.AddNote(title.Text, note.Text);
             StartActivity(typeof(MainActivity));
+
         }
     }
 }

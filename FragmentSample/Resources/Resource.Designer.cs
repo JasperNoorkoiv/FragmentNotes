@@ -3032,7 +3032,7 @@ namespace FragmentSample
 			public const int activity_main = 2130968602;
 			
 			// aapt resource value: 0x7f04001b
-			public const int CrearteNotes = 2130968603;
+			public const int CreateNotes = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
 			public const int design_bottom_navigation_item = 2130968604;

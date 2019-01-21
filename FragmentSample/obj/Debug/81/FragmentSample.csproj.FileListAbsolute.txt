@@ -1,4 +1,6 @@
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
-C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\FragmentSample.csprojAssemblyReference.cache
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\libraryimports.cache.stamp
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res.flag
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\FragmentSample.nuget.stamp
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\FragmentSample.csprojAssemblyReference.cache
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\FragmentSample.csproj.CoreCompileInputs.cache
