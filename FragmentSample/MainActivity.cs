@@ -8,6 +8,9 @@ using System.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
 namespace FragmentSample
 {
@@ -19,6 +22,9 @@ namespace FragmentSample
         List<string> NoteList = new List<string>(Notes);
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            AppCenter.Start("5bdb87e5-6c27-4009-9226-fa2b92e0beb0",
+                   typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("5bdb87e5-6c27-4009-9226-fa2b92e0beb0", typeof(Analytics), typeof(Crashes));
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.activity_main);

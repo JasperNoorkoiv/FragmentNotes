@@ -55,6 +55,20 @@
           }
         }
       },
+      "Microsoft.AppCenter.Distribute/1.13.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.0"
+        },
+        "compile": {
+          "lib/MonoAndroid403/Microsoft.AppCenter.Distribute.Android.Bindings.dll": {},
+          "lib/MonoAndroid403/Microsoft.AppCenter.Distribute.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid403/Microsoft.AppCenter.Distribute.Android.Bindings.dll": {},
+          "lib/MonoAndroid403/Microsoft.AppCenter.Distribute.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.5.231": {
         "type": "package",
         "dependencies": {
@@ -423,6 +437,23 @@
         "runtimes/win10-x86/lib/uap10.0/Microsoft.AppCenter.Crashes.dll",
         "runtimes/win10-x86/lib/uap10.0/WatsonRegistrationUtility.winmd",
         "runtimes/win10-x86/native/WatsonRegistrationUtility.dll"
+      ]
+    },
+    "Microsoft.AppCenter.Distribute/1.13.0": {
+      "sha512": "PDMo2BAB5LyjRxDz5186l4E6UlMZJDO73/AGEyHTOdnWDQ+vzX23vZyRQbZx5XlsLRex0Xps6dPNjaYcCRGDgA==",
+      "type": "package",
+      "path": "microsoft.appcenter.distribute/1.13.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Distribute.Android.Bindings.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Distribute.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.iOS.Bindings.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.Distribute.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Distribute.dll",
+        "microsoft.appcenter.distribute.1.13.0.nupkg.sha512",
+        "microsoft.appcenter.distribute.nuspec"
       ]
     },
     "sqlite-net-pcl/1.5.231": {
@@ -880,6 +911,7 @@
     "MonoAndroid,Version=v8.1": [
       "Microsoft.AppCenter.Analytics >= 1.13.0",
       "Microsoft.AppCenter.Crashes >= 1.13.0",
+      "Microsoft.AppCenter.Distribute >= 1.13.0",
       "Xamarin.Android.Support.Design >= 28.0.0.1",
       "sqlite-net-pcl >= 1.5.231"
     ]
@@ -922,6 +954,10 @@
             "version": "[1.13.0, )"
           },
           "Microsoft.AppCenter.Crashes": {
+            "target": "Package",
+            "version": "[1.13.0, )"
+          },
+          "Microsoft.AppCenter.Distribute": {
             "target": "Package",
             "version": "[1.13.0, )"
           },
