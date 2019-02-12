@@ -1,7 +1,5 @@
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\bin\Debug\FragmentSample.dll
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\bin\Debug\FragmentSample.pdb
-C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\bin\Debug\FragmentSample.FragmentSample.apk
-C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\bin\Debug\FragmentSample.FragmentSample-Signed.apk
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\FragmentSample.nuget.stamp
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\libraryimports.cache.stamp
@@ -9,7 +7,6 @@ C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res.
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\FragmentSample.csproj.CoreCompileInputs.cache
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\FragmentSample.dll
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\FragmentSample.pdb
-C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\android\bin\FragmentSample.FragmentSample.apk
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res\layout\activity_main.xml
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res\values\colors.xml
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res\values\ic_launcher_background.xml
@@ -76,3 +73,6 @@ C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\andr
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\android\assets\System.Xml.pdb
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\FragmentSample.csprojAssemblyReference.cache
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res\drawable\plusnote.png
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\bin\Debug\Note.FragmentNotebook.apk
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\bin\Debug\Note.FragmentNotebook-Signed.apk
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\android\bin\Note.FragmentNotebook.apk

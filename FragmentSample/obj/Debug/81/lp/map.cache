@@ -21,3 +21,9 @@ Xamarin.Android.Support.v7.AppCompat
 Xamarin.Android.Support.v7.RecyclerView
 Xamarin.Android.Support.Vector.Drawable
 System.Reflection.Extensions
+Microsoft.AppCenter.Analytics.Android.Bindings
+Microsoft.AppCenter.Analytics
+Microsoft.AppCenter.Android.Bindings
+Microsoft.AppCenter
+Microsoft.AppCenter.Crashes.Android.Bindings
+Microsoft.AppCenter.Crashes

@@ -2,6 +2,59 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
+      "Microsoft.AppCenter/1.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid403/Microsoft.AppCenter.Android.Bindings.dll": {},
+          "lib/MonoAndroid403/Microsoft.AppCenter.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid403/Microsoft.AppCenter.Android.Bindings.dll": {},
+          "lib/MonoAndroid403/Microsoft.AppCenter.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Analytics/1.13.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.0"
+        },
+        "compile": {
+          "lib/MonoAndroid403/Microsoft.AppCenter.Analytics.Android.Bindings.dll": {},
+          "lib/MonoAndroid403/Microsoft.AppCenter.Analytics.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid403/Microsoft.AppCenter.Analytics.Android.Bindings.dll": {},
+          "lib/MonoAndroid403/Microsoft.AppCenter.Analytics.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/1.13.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.0"
+        },
+        "compile": {
+          "lib/MonoAndroid403/Microsoft.AppCenter.Crashes.Android.Bindings.dll": {},
+          "lib/MonoAndroid403/Microsoft.AppCenter.Crashes.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid403/Microsoft.AppCenter.Crashes.Android.Bindings.dll": {},
+          "lib/MonoAndroid403/Microsoft.AppCenter.Crashes.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win10-arm/native/WatsonRegistrationUtility.dll": {
+            "assetType": "native",
+            "rid": "win10-arm"
+          },
+          "runtimes/win10-x64/native/WatsonRegistrationUtility.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x86/native/WatsonRegistrationUtility.dll": {
+            "assetType": "native",
+            "rid": "win10-x86"
+          }
+        }
+      },
       "sqlite-net-pcl/1.5.231": {
         "type": "package",
         "dependencies": {
@@ -308,11 +361,76 @@
     }
   },
   "libraries": {
+    "Microsoft.AppCenter/1.13.0": {
+      "sha512": "klt1cUPSa2ZI0elNTrFXiQo51mdh6DUpmiurZK68YdubpiPW3dJ3K/IFfykZPSfh1ALBuDar6DMpJJGa3Mn2wg==",
+      "type": "package",
+      "path": "microsoft.appcenter/1.13.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Android.Bindings.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.dll",
+        "lib/uap10.0/Microsoft.AppCenter.dll",
+        "microsoft.appcenter.1.13.0.nupkg.sha512",
+        "microsoft.appcenter.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Analytics/1.13.0": {
+      "sha512": "XpvEnf0Vx2MgREOfjBXyFRdRARNTv44NuIV/IujEkAcibGJhQzMu03PChAVACKsBm8zvsMNxfHT51JSklS7Jrw==",
+      "type": "package",
+      "path": "microsoft.appcenter.analytics/1.13.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Analytics.Android.Bindings.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Analytics.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Analytics.dll",
+        "lib/uap10.0/Microsoft.AppCenter.Analytics.dll",
+        "microsoft.appcenter.analytics.1.13.0.nupkg.sha512",
+        "microsoft.appcenter.analytics.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Crashes/1.13.0": {
+      "sha512": "JhQpYJnBNeLcOmIsVruGirtVgFfAwBQ3maiUxs5GXHoU7lWcdOt4vA480THinHwjeO8nO6CP//4RB7OUQ3ieCA==",
+      "type": "package",
+      "path": "microsoft.appcenter.crashes/1.13.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/uap10.0/Microsoft.AppCenter.Crashes.targets",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Crashes.Android.Bindings.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Crashes.dll",
+        "microsoft.appcenter.crashes.1.13.0.nupkg.sha512",
+        "microsoft.appcenter.crashes.nuspec",
+        "ref/uap10.0/Microsoft.AppCenter.Crashes.dll",
+        "runtimes/win10-arm/lib/uap10.0/Microsoft.AppCenter.Crashes.dll",
+        "runtimes/win10-arm/lib/uap10.0/WatsonRegistrationUtility.winmd",
+        "runtimes/win10-arm/native/WatsonRegistrationUtility.dll",
+        "runtimes/win10-x64/lib/uap10.0/Microsoft.AppCenter.Crashes.dll",
+        "runtimes/win10-x64/lib/uap10.0/WatsonRegistrationUtility.winmd",
+        "runtimes/win10-x64/native/WatsonRegistrationUtility.dll",
+        "runtimes/win10-x86/lib/uap10.0/Microsoft.AppCenter.Crashes.dll",
+        "runtimes/win10-x86/lib/uap10.0/WatsonRegistrationUtility.winmd",
+        "runtimes/win10-x86/native/WatsonRegistrationUtility.dll"
+      ]
+    },
     "sqlite-net-pcl/1.5.231": {
-      "sha512": "Sy+K+Wm2RZ+4b1uLHsaXvfR92Or71XxPXa2Id6msSOVkZKh+c+PUk/HQOAgxyhm3lhvysL0mK6Gd6mI69NJ9AA==",
+      "sha512": "B9jScvqkishSMkpa9Mc4Q85LTHxRTzcUXZx9EQqgrvdz7MFEDHfpiPcKdjy1qXHdmHttEXfY4h6gu4FlgWP2Sw==",
       "type": "package",
       "path": "sqlite-net-pcl/1.5.231",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard1.1/SQLite-net.deps.json",
         "lib/netstandard1.1/SQLite-net.dll",
@@ -324,10 +442,11 @@
       ]
     },
     "SQLitePCLRaw.bundle_green/1.1.11": {
-      "sha512": "HOD1/Jg9VZtrOyPUCD9reQOXHq4r+fNe24qw5nghuiUcKch+9jePeRpt6MqGGUFhg2KW89KvE/RFlhpbfF8pKA==",
+      "sha512": "Hqp8IF/RLjbypkLm+t+1RqAX8EKuWEkj7wkLXplfENQoPnE127cvTmaDvaQKtt7a5QsD/HNjFDr1z5f9q2wdPg==",
       "type": "package",
       "path": "sqlitepclraw.bundle_green/1.1.11",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "build/wp8/SQLitePCLRaw.bundle_green.targets",
         "build/wp80/arm/SQLitePCLRaw.batteries_green.dll",
@@ -370,10 +489,11 @@
       ]
     },
     "SQLitePCLRaw.core/1.1.11": {
-      "sha512": "bWiOso10I1vDuc5rbzT69LQT0+oXfYnoqx8vKJ8zim/CJ4ytSd20QNTE/FE0dvWEgXGnvDp7gGJFu6PeWnhx9g==",
+      "sha512": "QT17CyQAQIbTCu6pW5+uVA8BXqRzquiDI1tr5Un6c1YZcQydPmGPuYYng9xMs2UHUDYHbTu+JDkp55WR+qo9bQ==",
       "type": "package",
       "path": "sqlitepclraw.core/1.1.11",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid/SQLitePCLRaw.core.dll",
         "lib/Xamarin.Mac20/SQLitePCLRaw.core.dll",
@@ -395,10 +515,11 @@
       ]
     },
     "SQLitePCLRaw.lib.e_sqlite3.android/1.1.11": {
-      "sha512": "yAil/hQP0D90J+LiAzcdOJ5Ro8FbqI1BDNMKqEEi9hMX16zjF4TVi6AIWugeP75qGjECNhTAShRU+sl0eL5RhA==",
+      "sha512": "+9Ubefxx0w/Nw1RX7OPawZNeOvZB87V7lzohLpBLqHPP7WGREi23YCABKaOe1oqN86teDSAG1yQERL0AKjP/iw==",
       "type": "package",
       "path": "sqlitepclraw.lib.e_sqlite3.android/1.1.11",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid/SQLitePCLRaw.lib.e_sqlite3.dll",
         "sqlitepclraw.lib.e_sqlite3.android.1.1.11.nupkg.sha512",
@@ -406,10 +527,11 @@
       ]
     },
     "SQLitePCLRaw.provider.e_sqlite3.android/1.1.11": {
-      "sha512": "mydVArXPWt1Cm5c1aemK6UHcmaj+S6Vi7kbh1kuWveYugyQk/jfVLsMZHWu4enKWpDDjgkA1Blcc3CgLgTJJfA==",
+      "sha512": "hSMP5nLbXPEM3gh26uHadE7a74VcydAtbRPadAu0ds7PEzLuaf1ruxnpvQdSdewnZ1Dprmkx29KxJcv1qeXbzw==",
       "type": "package",
       "path": "sqlitepclraw.provider.e_sqlite3.android/1.1.11",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid/SQLitePCLRaw.provider.e_sqlite3.dll",
         "sqlitepclraw.provider.e_sqlite3.android.1.1.11.nupkg.sha512",
@@ -756,6 +878,8 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
+      "Microsoft.AppCenter.Analytics >= 1.13.0",
+      "Microsoft.AppCenter.Crashes >= 1.13.0",
       "Xamarin.Android.Support.Design >= 28.0.0.1",
       "sqlite-net-pcl >= 1.5.231"
     ]
@@ -793,6 +917,14 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
+          "Microsoft.AppCenter.Analytics": {
+            "target": "Package",
+            "version": "[1.13.0, )"
+          },
+          "Microsoft.AppCenter.Crashes": {
+            "target": "Package",
+            "version": "[1.13.0, )"
+          },
           "Xamarin.Android.Support.Design": {
             "target": "Package",
             "version": "[28.0.0.1, )"
