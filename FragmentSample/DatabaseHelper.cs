@@ -35,8 +35,8 @@ namespace FragmentSample
         {
             Note newNote = new Note();
             newNote.Title = title;
-            newNote.ID = GetAllNotes().ToList().Count() + 1;
-            newNote.CreationTime = DateTime.Now.ToUniversalTime();
+            newNote.ID = (GetAllNotes().ToList().Count() + 1);
+            newNote.CreationTime = DateTime.Now;
             newNote.Content = content;
             db.Insert(newNote);
         }
