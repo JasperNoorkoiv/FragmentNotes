@@ -5,6 +5,8 @@ C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\andr
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\android\assets\Microsoft.AppCenter.Android.Bindings.dll
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\android\assets\Microsoft.AppCenter.Crashes.Android.Bindings.dll
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\android\assets\Microsoft.AppCenter.Crashes.dll
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\android\assets\Microsoft.AppCenter.Distribute.Android.Bindings.dll
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\android\assets\Microsoft.AppCenter.Distribute.dll
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\android\assets\Microsoft.AppCenter.dll
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\android\assets\Mono.Android.dll
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\android\assets\mscorlib.dll

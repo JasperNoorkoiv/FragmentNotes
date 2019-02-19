@@ -8,6 +8,7 @@ using System.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
+
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
@@ -29,12 +30,11 @@ namespace FragmentSample
 
             SetContentView(Resource.Layout.activity_main);
 
-            File.Delete(Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myNotes2.db3"));
-            databaseHelper.CreateDatabaseWithTable();
 
-            for (int i = 0; i < TitleList.Count; i++)
+
+            if (!File.Exists(Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myNotes2.db3")))
             {
-                databaseHelper.AddNote(TitleList[i], NoteList[i]);
+                databaseHelper.CreateDatabaseWithTable();
             }
         }
 
@@ -52,8 +52,9 @@ namespace FragmentSample
                 return true;
             }
             return base.OnOptionsItemSelected(item);
+
         }
-            public static string[] Titles = {
+        public static string[] Titles = {
                                       "Henry IV (1)",
                                       "Henry V",
                                       "Henry VIII",

@@ -13,7 +13,7 @@
 		android:maxLines="2"
 		android:padding="10dp"
 		android:textSize="25sp" 
-		android:text="Shopping List"
+		android:text="Notes"
 		android:textStyle="bold"
 		android:id="@+id/txtNote" />
 	<EditText

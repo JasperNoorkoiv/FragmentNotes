@@ -39,6 +39,10 @@ C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res\
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\R.cs.flag
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\R.txt
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\uploadflags.txt
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res\drawable\plusnote.png
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\bin\Debug\Note.FragmentNotebook.apk
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\bin\Debug\Note.FragmentNotebook-Signed.apk
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\android\bin\Note.FragmentNotebook.apk
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\bin\Debug\Mono.Android.pdb
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\bin\Debug\mscorlib.pdb
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\bin\Debug\System.Core.pdb
@@ -49,11 +53,6 @@ C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\bin\Debug\System.
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\bin\Debug\System.ServiceModel.Internals.pdb
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\bin\Debug\System.ComponentModel.Composition.pdb
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\bin\Debug\Mono.Security.pdb
-C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\FragmentSample.csprojAssemblyReference.cache
-C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res\drawable\plusnote.png
-C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\bin\Debug\Note.FragmentNotebook.apk
-C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\bin\Debug\Note.FragmentNotebook-Signed.apk
-C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\android\bin\Note.FragmentNotebook.apk
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\linksrc\FragmentSample.pdb
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\linksrc\Mono.Android.pdb
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\linksrc\mscorlib.pdb

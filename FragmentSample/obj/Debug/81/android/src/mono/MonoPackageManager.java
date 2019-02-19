@@ -112,6 +112,8 @@ class MonoPackageManager_Resources {
 		"Microsoft.AppCenter.Android.Bindings.dll",
 		"Microsoft.AppCenter.Crashes.Android.Bindings.dll",
 		"Microsoft.AppCenter.Crashes.dll",
+		"Microsoft.AppCenter.Distribute.Android.Bindings.dll",
+		"Microsoft.AppCenter.Distribute.dll",
 		"Microsoft.AppCenter.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_green.dll",

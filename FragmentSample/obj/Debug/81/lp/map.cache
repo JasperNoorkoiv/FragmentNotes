@@ -3,6 +3,8 @@ Microsoft.AppCenter.Analytics
 Microsoft.AppCenter.Android.Bindings
 Microsoft.AppCenter.Crashes.Android.Bindings
 Microsoft.AppCenter.Crashes
+Microsoft.AppCenter.Distribute.Android.Bindings
+Microsoft.AppCenter.Distribute
 Microsoft.AppCenter
 SQLite-net
 SQLitePCLRaw.batteries_green
@@ -27,5 +29,3 @@ Xamarin.Android.Support.v7.AppCompat
 Xamarin.Android.Support.v7.RecyclerView
 Xamarin.Android.Support.Vector.Drawable
 System.Reflection.Extensions
-Microsoft.AppCenter.Distribute.Android.Bindings
-Microsoft.AppCenter.Distribute
