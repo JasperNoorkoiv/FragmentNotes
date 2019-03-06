@@ -2397,8 +2397,8 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C0015
 			public const int add = 2131492885;
 			
-			// aapt resource value: 0x7F020017
-			public const int AddNote = 2130837527;
+			// aapt resource value: 0x7F020018
+			public const int AddNote = 2130837528;
 			
 			// aapt resource value: 0x7F0C0016
 			public const int alertTitle = 2131492886;
@@ -2633,6 +2633,9 @@ namespace FragmentSample
 			
 			// aapt resource value: 0x7F0C005D
 			public const int scrollView = 2131492957;
+			
+			// aapt resource value: 0x7F020017
+			public const int scrollView1 = 2130837527;
 			
 			// aapt resource value: 0x7F0C005F
 			public const int search_badge = 2131492959;

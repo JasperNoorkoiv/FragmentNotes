@@ -18,7 +18,7 @@ namespace FragmentSample
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
-    {
+    {   
         DatabaseHelper databaseHelper = new DatabaseHelper();
         List<string> TitleList = new List<string>(Titles);
         List<string> NoteList = new List<string>(Notes);
