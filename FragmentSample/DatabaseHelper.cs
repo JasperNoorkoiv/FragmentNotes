@@ -43,6 +43,7 @@ namespace FragmentSample
 
         public void DeleteNote(int id)
         {
+            db = new SQLiteConnection(dbPath);
             Note noteToDelete = new Note();
             noteToDelete.ID = id;
             db.Delete(noteToDelete);

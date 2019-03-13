@@ -43,6 +43,7 @@ namespace FragmentSample
             TextView textTitle = view.FindViewById<TextView>(Resource.Id.txtNote);
             TextView textNote = view.FindViewById<TextView>(Resource.Id.txtNoteGlimpse);
             Button editButton = view.FindViewById<Button>(Resource.Id.button_edit);
+            Button deleteButton = view.FindViewById<Button>(Resource.Id.button_delete);        
 
             // second view items
             EditText editTitle = view.FindViewById<EditText>(Resource.Id.textInputEditText1);
@@ -60,6 +61,10 @@ namespace FragmentSample
                 databaseHelper.EditNote(NoteId + 1, editTitle.Text, editNote.Text);
                 StartActivity(intent);
             };
+
+            // delete note
+            deleteButton.Click += delegate { databaseHelper.DeleteNote(NoteId + 1); StartActivity(intent); };
+
             // display note
             var NoteList = databaseHelper.GetAllNotes().ToList();
             var result = NoteList.Single(s => s.ID == NoteId + 1);

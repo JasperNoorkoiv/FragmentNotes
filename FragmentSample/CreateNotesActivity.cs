@@ -25,8 +25,7 @@ namespace FragmentSample
             Button btn = FindViewById<Button>(Resource.Id.button_save);
             btn.Click += SaveButton_Clicked;
 
-            Button btn2 = FindViewById<Button>(Resource.Id.button_delete);
-            btn2.Click += DeleteButton_Clicked;
+          
         }
 
         private void SaveButton_Clicked(object sender, EventArgs e)
@@ -36,12 +35,6 @@ namespace FragmentSample
 
             databaseHelper.AddNote(title.Text, note.Text);
             StartActivity(typeof(MainActivity));
-        }
-
-        private void DeleteButton_Clicked(object sender, EventArgs e)
-        {
-            var note = (Note)sender;
-            databaseHelper.DeleteNote(note.ID);
         }
     }
 }

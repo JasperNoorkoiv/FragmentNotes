@@ -45,6 +45,7 @@ namespace FragmentSample
 
             position = (items.Count - 1) - position;
 
+            
             view.FindViewById<TextView>(Resource.Id.txtNote).Text = items[position].Title;
             view.FindViewById<TextView>(Resource.Id.txtNoteDate).Text = items[position].CreationTime.ToLocalTime().ToString("HH:mm dd.MM.yyyy");
             view.FindViewById<TextView>(Resource.Id.txtNoteGlimpse).Text = items[position].Content;
