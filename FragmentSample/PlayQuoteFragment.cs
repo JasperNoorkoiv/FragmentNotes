@@ -7,13 +7,14 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
+using Android.Support.V7.App;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
 
 namespace FragmentSample
 {
-    public class PlayQuoteFragment : Fragment
+    public class PlayQuoteFragment : Fragment   
     {
         public int NoteId => Arguments.GetInt("current_note_id", 0);
         DatabaseHelper databaseHelper = new DatabaseHelper();
@@ -37,7 +38,7 @@ namespace FragmentSample
             {
                 return null;
             }
-            var view = inflater.Inflate(Resource.Layout.Notesrow, null);
+            var view = inflater.Inflate(Resource.Layout.EditNotes, null);
 
             var switcher = (ViewSwitcher)view.FindViewById(Resource.Id.viewSwitcher1);
             TextView textTitle = view.FindViewById<TextView>(Resource.Id.txtNote);
@@ -48,26 +49,30 @@ namespace FragmentSample
             // second view items
             EditText editTitle = view.FindViewById<EditText>(Resource.Id.textInputEditText1);
             EditText editNote = view.FindViewById<EditText>(Resource.Id.textInputEditText2);
-            Button saveEditButton = view.FindViewById<Button>(Resource.Id.button_save_edit);
+            //Button saveEditButton = view.FindViewById<Button>(Resource.Id.button_edit_save);
 
             // switch to edit mode
-            editButton.Click += delegate { switcher.ShowNext(); };
+            //editButton.Click += delegate { switcher.ShowNext(); };
 
             // save edited note
             var intent = new Intent(Activity, typeof(MainActivity));
 
-            saveEditButton.Click += delegate
-            {
-                databaseHelper.EditNote(NoteId + 1, editTitle.Text, editNote.Text);
+            //saveEditButton.Click += delegate
+            //{
+            //    databaseHelper.EditNote(NoteId + 1, editTitle.Text, editNote.Text);
+            //    StartActivity(intent);
+            //};
+
+            // delete note
+            deleteButton.Click += delegate {
+                databaseHelper.DeleteNote(NoteId);
+                var a = databaseHelper.GetAllNotes().ToArray();
                 StartActivity(intent);
             };
 
-            // delete note
-            deleteButton.Click += delegate { databaseHelper.DeleteNote(NoteId + 1); StartActivity(intent); };
-
             // display note
             var NoteList = databaseHelper.GetAllNotes().ToList();
-            var result = NoteList.Single(s => s.ID == NoteId + 1);
+            var result = NoteList[NoteId];
             textTitle.Text = result.Title;
             textNote.Text = result.Content;
             return view;

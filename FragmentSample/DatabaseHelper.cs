@@ -19,15 +19,18 @@ namespace FragmentSample
         SQLiteConnection db;
         string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myNotes2.db3");
 
-        public void CreateDatabaseWithTable()
+        public DatabaseHelper()
         {
             db = new SQLiteConnection(dbPath);
+        }
+
+        public void CreateDatabaseWithTable()
+        {
             db.CreateTable<Note>();
         }
 
         public TableQuery<Note> GetAllNotes()
         {
-            db = new SQLiteConnection(dbPath);
             return db.Table<Note>();
         }
 
@@ -35,7 +38,6 @@ namespace FragmentSample
         {
             Note newNote = new Note();
             newNote.Title = title;
-            newNote.ID = (GetAllNotes().ToList().Count() + 1);
             newNote.CreationTime = DateTime.Now;
             newNote.Content = content;
             db.Insert(newNote);
@@ -43,15 +45,14 @@ namespace FragmentSample
 
         public void DeleteNote(int id)
         {
-            db = new SQLiteConnection(dbPath);
-            Note noteToDelete = new Note();
-            noteToDelete.ID = id;
-            db.Delete(noteToDelete);
+            //Note noteToDelete = new Note();
+            //noteToDelete.ID = id;
+
+            db.Delete<Note>(id);
+            //db.Delete(noteToDelete);
         }
         public void EditNote(int id, string title, string content)
         {
-
-            db = new SQLiteConnection(dbPath);
             var allnotes = GetAllNotes();
             var query = from ord in allnotes
                         where ord.ID == id

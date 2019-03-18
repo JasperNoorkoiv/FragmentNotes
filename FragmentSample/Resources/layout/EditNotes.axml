@@ -45,12 +45,6 @@
 		android:textColor="@color/material_grey_800"
 		android:id="@+id/txtNoteDate" />
 	<Button
-		Clicked="Edit_Save_Button_Clicked"
-		android:text="Save"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:id="@+id/button_edit_save"/>
-	<Button
 		Clicked="DeleteButton_Clicked"
 		android:text="Delete"
 		android:layout_width="match_parent"

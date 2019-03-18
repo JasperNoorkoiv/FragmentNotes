@@ -94,12 +94,12 @@
 			android:hint="Get the money."
 			android:textColor="@color/material_grey_800"
 			android:id="@+id/textInputEditText2" />
-		<Button
-		Clicked="SaveEditButton_Clicked"
-		android:text="Save"
+	<Button
+		Clicked="DeleteButton_Clicked"
+		android:text="Delete"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/button_save_edit"/>	
+		android:id="@+id/button_delete" />
 	</LinearLayout>
 	</ViewSwitcher>
 </LinearLayout>
