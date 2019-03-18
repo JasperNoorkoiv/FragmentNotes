@@ -37,11 +37,5 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:id="@+id/button_save" />
-	<Button
-		Clicked="DeleteButton_Clicked"
-		android:text="Delete"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:id="@+id/button_delete" />
 
 </LinearLayout>

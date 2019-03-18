@@ -17,6 +17,7 @@ C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAnd
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\SQLitePCLRaw.lib.e_sqlite3.dll
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.Core.dll
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.Data.SQLite.dll
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.dll
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.Xml.dll
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\Xamarin.Android.Arch.Core.Common.dll
@@ -54,4 +55,19 @@ C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAnd
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.ServiceModel.Internals.dll
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.Threading.Tasks.dll
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.Globalization.dll
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\netstandard.dll
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.Data.dll
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.Numerics.dll
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.Transactions.dll
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.Diagnostics.StackTrace.dll
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.Globalization.Extensions.dll
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.IO.Compression.dll
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.IO.Compression.FileSystem.dll
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.Runtime.Serialization.Xml.dll
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.Runtime.Serialization.Primitives.dll
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.Security.Cryptography.Algorithms.dll
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.Security.SecureString.dll
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.Web.Services.dll
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.Xml.Linq.dll
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\System.Xml.XPath.XDocument.dll
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\android\assets\Mono.Security.dll

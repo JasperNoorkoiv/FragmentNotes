@@ -2,13 +2,12 @@
 <Paths>
   <Jars>
     <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\0\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\15\jl\arch-core-common.jar</Jar>
-    <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\16\jl\arch-lifecycle-common.jar</Jar>
-    <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\17\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\16\jl\arch-core-common.jar</Jar>
+    <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\17\jl\arch-lifecycle-common.jar</Jar>
     <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\18\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\19\jl\support-annotations.jar</Jar>
+    <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\19\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\2\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\20\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\20\jl\support-annotations.jar</Jar>
     <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\21\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\22\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\23\jl\bin\classes.jar</Jar>
@@ -19,6 +18,7 @@
     <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\28\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\29\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\3\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\30\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\5\jl\bin\classes.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
@@ -32,12 +32,12 @@
     <ResolvedResourceDirectory>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\11\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\12\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\13\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\20\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\23\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\25\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\21\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\24\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\26\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\27\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\28\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\29\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\\Debug\MonoAndroid81\lp\1\jl\assets</ResolvedAssetDirectory>
@@ -62,11 +62,11 @@
     <ResolvedResourceDirectoryStamp>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\11.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\12.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\13.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\20.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\23.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\25.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\21.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\24.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\26.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\27.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\28.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\MonoAndroid81\lp\29.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>
