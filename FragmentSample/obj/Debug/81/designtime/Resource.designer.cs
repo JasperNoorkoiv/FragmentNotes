@@ -553,35 +553,35 @@ namespace FragmentSample
 			// aapt resource value: 0x7F04008E
 			public const int fastScrollVerticalTrackDrawable = 2130968718;
 			
-			// aapt resource value: 0x7F040001
-			public const int font = 2130968577;
+			// aapt resource value: 0x7F100009
+			public const int font = 2131755017;
 			
 			// aapt resource value: 0x7F040090
 			public const int fontFamily = 2130968720;
 			
-			// aapt resource value: 0x7F040002
-			public const int fontProviderAuthority = 2130968578;
+			// aapt resource value: 0x7F100002
+			public const int fontProviderAuthority = 2131755010;
 			
-			// aapt resource value: 0x7F040003
-			public const int fontProviderCerts = 2130968579;
+			// aapt resource value: 0x7F100005
+			public const int fontProviderCerts = 2131755013;
 			
-			// aapt resource value: 0x7F040004
-			public const int fontProviderFetchStrategy = 2130968580;
+			// aapt resource value: 0x7F100006
+			public const int fontProviderFetchStrategy = 2131755014;
 			
-			// aapt resource value: 0x7F040005
-			public const int fontProviderFetchTimeout = 2130968581;
+			// aapt resource value: 0x7F100007
+			public const int fontProviderFetchTimeout = 2131755015;
 			
-			// aapt resource value: 0x7F040006
-			public const int fontProviderPackage = 2130968582;
+			// aapt resource value: 0x7F100003
+			public const int fontProviderPackage = 2131755011;
 			
-			// aapt resource value: 0x7F040007
-			public const int fontProviderQuery = 2130968583;
+			// aapt resource value: 0x7F100004
+			public const int fontProviderQuery = 2131755012;
 			
-			// aapt resource value: 0x7F040008
-			public const int fontStyle = 2130968584;
+			// aapt resource value: 0x7F100008
+			public const int fontStyle = 2131755016;
 			
-			// aapt resource value: 0x7F040009
-			public const int fontWeight = 2130968585;
+			// aapt resource value: 0x7F100010
+			public const int fontWeight = 2131755024;
 			
 			// aapt resource value: 0x7F040099
 			public const int foregroundInsidePadding = 2130968729;
@@ -1178,8 +1178,8 @@ namespace FragmentSample
 		public partial class Boolean
 		{
 			
-			// aapt resource value: 0x7F050001
-			public const int abc_action_bar_embed_tabs = 2131034113;
+			// aapt resource value: 0x7F130002
+			public const int abc_action_bar_embed_tabs = 2131951618;
 			
 			// aapt resource value: 0x7F050002
 			public const int abc_allow_stacked_button_bar = 2131034114;
@@ -1428,11 +1428,11 @@ namespace FragmentSample
 			// aapt resource value: 0x7F060046
 			public const int material_grey_900 = 2131099718;
 			
-			// aapt resource value: 0x7F060001
-			public const int notification_action_color_filter = 2131099649;
+			// aapt resource value: 0x7F060006
+			public const int notification_action_color_filter = 2131099654;
 			
-			// aapt resource value: 0x7F060002
-			public const int notification_icon_bg_color = 2131099650;
+			// aapt resource value: 0x7F060007
+			public const int notification_icon_bg_color = 2131099655;
 			
 			// aapt resource value: 0x7F060049
 			public const int notification_material_background_media_default_color = 2131099721;
@@ -1464,14 +1464,14 @@ namespace FragmentSample
 			// aapt resource value: 0x7F060052
 			public const int ripple_material_dark = 2131099730;
 			
-			// aapt resource value: 0x7F060003
-			public const int ripple_material_light = 2131099651;
+			// aapt resource value: 0x7F060008
+			public const int ripple_material_light = 2131099656;
 			
 			// aapt resource value: 0x7F060054
 			public const int secondary_text_default_material_dark = 2131099732;
 			
-			// aapt resource value: 0x7F060004
-			public const int secondary_text_default_material_light = 2131099652;
+			// aapt resource value: 0x7F060009
+			public const int secondary_text_default_material_light = 2131099657;
 			
 			// aapt resource value: 0x7F060056
 			public const int secondary_text_disabled_material_dark = 2131099734;
@@ -1738,20 +1738,20 @@ namespace FragmentSample
 			// aapt resource value: 0x7F08004A
 			public const int abc_text_size_title_material_toolbar = 2131230794;
 			
-			// aapt resource value: 0x7F080001
-			public const int compat_button_inset_horizontal_material = 2131230721;
+			// aapt resource value: 0x7F110002
+			public const int compat_button_inset_horizontal_material = 2131820546;
 			
-			// aapt resource value: 0x7F080002
-			public const int compat_button_inset_vertical_material = 2131230722;
+			// aapt resource value: 0x7F110003
+			public const int compat_button_inset_vertical_material = 2131820547;
 			
-			// aapt resource value: 0x7F080003
-			public const int compat_button_padding_horizontal_material = 2131230723;
+			// aapt resource value: 0x7F110004
+			public const int compat_button_padding_horizontal_material = 2131820548;
 			
-			// aapt resource value: 0x7F080004
-			public const int compat_button_padding_vertical_material = 2131230724;
+			// aapt resource value: 0x7F110005
+			public const int compat_button_padding_vertical_material = 2131820549;
 			
-			// aapt resource value: 0x7F080005
-			public const int compat_control_corner_material = 2131230725;
+			// aapt resource value: 0x7F110006
+			public const int compat_control_corner_material = 2131820550;
 			
 			// aapt resource value: 0x7F080050
 			public const int design_appbar_elevation = 2131230800;
@@ -1912,50 +1912,50 @@ namespace FragmentSample
 			// aapt resource value: 0x7F080084
 			public const int item_touch_helper_swipe_escape_velocity = 2131230852;
 			
-			// aapt resource value: 0x7F080006
-			public const int notification_action_icon_size = 2131230726;
+			// aapt resource value: 0x7F110007
+			public const int notification_action_icon_size = 2131820551;
 			
-			// aapt resource value: 0x7F080007
-			public const int notification_action_text_size = 2131230727;
+			// aapt resource value: 0x7F110008
+			public const int notification_action_text_size = 2131820552;
 			
-			// aapt resource value: 0x7F080008
-			public const int notification_big_circle_margin = 2131230728;
+			// aapt resource value: 0x7F110009
+			public const int notification_big_circle_margin = 2131820553;
 			
-			// aapt resource value: 0x7F080009
-			public const int notification_content_margin_start = 2131230729;
+			// aapt resource value: 0x7F110010
+			public const int notification_content_margin_start = 2131820560;
 			
-			// aapt resource value: 0x7F08000A
-			public const int notification_large_icon_height = 2131230730;
+			// aapt resource value: 0x7F110011
+			public const int notification_large_icon_height = 2131820561;
 			
-			// aapt resource value: 0x7F08000B
-			public const int notification_large_icon_width = 2131230731;
+			// aapt resource value: 0x7F110012
+			public const int notification_large_icon_width = 2131820562;
 			
-			// aapt resource value: 0x7F08000C
-			public const int notification_main_column_padding_top = 2131230732;
+			// aapt resource value: 0x7F110013
+			public const int notification_main_column_padding_top = 2131820563;
 			
-			// aapt resource value: 0x7F08000D
-			public const int notification_media_narrow_margin = 2131230733;
+			// aapt resource value: 0x7F110014
+			public const int notification_media_narrow_margin = 2131820564;
 			
-			// aapt resource value: 0x7F08000E
-			public const int notification_right_icon_size = 2131230734;
+			// aapt resource value: 0x7F110015
+			public const int notification_right_icon_size = 2131820565;
 			
-			// aapt resource value: 0x7F08000F
-			public const int notification_right_side_padding_top = 2131230735;
+			// aapt resource value: 0x7F110016
+			public const int notification_right_side_padding_top = 2131820566;
 			
-			// aapt resource value: 0x7F080010
-			public const int notification_small_icon_background_padding = 2131230736;
+			// aapt resource value: 0x7F110017
+			public const int notification_small_icon_background_padding = 2131820567;
 			
-			// aapt resource value: 0x7F080011
-			public const int notification_small_icon_size_as_large = 2131230737;
+			// aapt resource value: 0x7F110018
+			public const int notification_small_icon_size_as_large = 2131820568;
 			
-			// aapt resource value: 0x7F080012
-			public const int notification_subtext_size = 2131230738;
+			// aapt resource value: 0x7F110019
+			public const int notification_subtext_size = 2131820569;
 			
-			// aapt resource value: 0x7F080013
-			public const int notification_top_pad = 2131230739;
+			// aapt resource value: 0x7F110020
+			public const int notification_top_pad = 2131820576;
 			
-			// aapt resource value: 0x7F080014
-			public const int notification_top_pad_large_text = 2131230740;
+			// aapt resource value: 0x7F110021
+			public const int notification_top_pad_large_text = 2131820577;
 			
 			// aapt resource value: 0x7F080094
 			public const int tooltip_corner_radius = 2131230868;
@@ -2276,41 +2276,41 @@ namespace FragmentSample
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
 			
-			// aapt resource value: 0x7F090001
-			public const int notification_action_background = 2131296257;
+			// aapt resource value: 0x7F010014
+			public const int notification_action_background = 2130771988;
 			
-			// aapt resource value: 0x7F090002
-			public const int notification_bg = 2131296258;
+			// aapt resource value: 0x7F010005
+			public const int notification_bg = 2130771973;
 			
-			// aapt resource value: 0x7F090003
-			public const int notification_bg_low = 2131296259;
+			// aapt resource value: 0x7F010006
+			public const int notification_bg_low = 2130771974;
 			
-			// aapt resource value: 0x7F090004
-			public const int notification_bg_low_normal = 2131296260;
+			// aapt resource value: 0x7F010009
+			public const int notification_bg_low_normal = 2130771977;
 			
-			// aapt resource value: 0x7F090005
-			public const int notification_bg_low_pressed = 2131296261;
+			// aapt resource value: 0x7F010010
+			public const int notification_bg_low_pressed = 2130771984;
 			
-			// aapt resource value: 0x7F090006
-			public const int notification_bg_normal = 2131296262;
+			// aapt resource value: 0x7F010011
+			public const int notification_bg_normal = 2130771985;
 			
-			// aapt resource value: 0x7F090007
-			public const int notification_bg_normal_pressed = 2131296263;
+			// aapt resource value: 0x7F010012
+			public const int notification_bg_normal_pressed = 2130771986;
 			
-			// aapt resource value: 0x7F090008
-			public const int notification_icon_background = 2131296264;
+			// aapt resource value: 0x7F010007
+			public const int notification_icon_background = 2130771975;
 			
-			// aapt resource value: 0x7F090009
-			public const int notification_template_icon_bg = 2131296265;
+			// aapt resource value: 0x7F010015
+			public const int notification_template_icon_bg = 2130771989;
 			
-			// aapt resource value: 0x7F09000A
-			public const int notification_template_icon_low_bg = 2131296266;
+			// aapt resource value: 0x7F010016
+			public const int notification_template_icon_low_bg = 2130771990;
 			
-			// aapt resource value: 0x7F09000B
-			public const int notification_tile_bg = 2131296267;
+			// aapt resource value: 0x7F010008
+			public const int notification_tile_bg = 2130771976;
 			
-			// aapt resource value: 0x7F09000C
-			public const int notify_panel_notification_icon_bg = 2131296268;
+			// aapt resource value: 0x7F010013
+			public const int notify_panel_notification_icon_bg = 2130771987;
 			
 			// aapt resource value: 0x7F010004
 			public const int plusnote = 2130771972;
@@ -2337,8 +2337,8 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C0001
 			public const int action0 = 2131492865;
 			
-			// aapt resource value: 0x7F0C0005
-			public const int actions = 2131492869;
+			// aapt resource value: 0x7F020031
+			public const int actions = 2130837553;
 			
 			// aapt resource value: 0x7F0C0002
 			public const int action_bar = 2131492866;
@@ -2361,17 +2361,17 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C0008
 			public const int action_bar_title = 2131492872;
 			
-			// aapt resource value: 0x7F0C0001
-			public const int action_container = 2131492865;
+			// aapt resource value: 0x7F020018
+			public const int action_container = 2130837528;
 			
 			// aapt resource value: 0x7F0C000A
 			public const int action_context_bar = 2131492874;
 			
-			// aapt resource value: 0x7F0C0002
-			public const int action_divider = 2131492866;
+			// aapt resource value: 0x7F020030
+			public const int action_divider = 2130837552;
 			
-			// aapt resource value: 0x7F0C0003
-			public const int action_image = 2131492867;
+			// aapt resource value: 0x7F020019
+			public const int action_image = 2130837529;
 			
 			// aapt resource value: 0x7F0C000D
 			public const int action_menu_divider = 2131492877;
@@ -2388,8 +2388,8 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C0011
 			public const int action_mode_close_button = 2131492881;
 			
-			// aapt resource value: 0x7F0C0004
-			public const int action_text = 2131492868;
+			// aapt resource value: 0x7F020020
+			public const int action_text = 2130837536;
 			
 			// aapt resource value: 0x7F0C0014
 			public const int activity_chooser_view_content = 2131492884;
@@ -2403,14 +2403,14 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C0016
 			public const int alertTitle = 2131492886;
 			
-			// aapt resource value: 0x7F0C0006
-			public const int async = 2131492870;
+			// aapt resource value: 0x7F020034
+			public const int async = 2130837556;
 			
 			// aapt resource value: 0x7F0C0018
 			public const int auto = 2131492888;
 			
-			// aapt resource value: 0x7F0C0007
-			public const int blocking = 2131492871;
+			// aapt resource value: 0x7F020033
+			public const int blocking = 2130837555;
 			
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
@@ -2436,8 +2436,8 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C001E
 			public const int checkbox = 2131492894;
 			
-			// aapt resource value: 0x7F0C0008
-			public const int chronometer = 2131492872;
+			// aapt resource value: 0x7F020027
+			public const int chronometer = 2130837543;
 			
 			// aapt resource value: 0x7F0C0020
 			public const int container = 2131492896;
@@ -2496,8 +2496,8 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C0032
 			public const int @fixed = 2131492914;
 			
-			// aapt resource value: 0x7F0C0009
-			public const int forever = 2131492873;
+			// aapt resource value: 0x7F020035
+			public const int forever = 2130837557;
 			
 			// aapt resource value: 0x7F0C0034
 			public const int ghost_view = 2131492916;
@@ -2505,20 +2505,20 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C0035
 			public const int home = 2131492917;
 			
-			// aapt resource value: 0x7F0C000A
-			public const int icon = 2131492874;
+			// aapt resource value: 0x7F020022
+			public const int icon = 2130837538;
 			
-			// aapt resource value: 0x7F0C000B
-			public const int icon_group = 2131492875;
+			// aapt resource value: 0x7F020032
+			public const int icon_group = 2130837554;
 			
 			// aapt resource value: 0x7F0C0038
 			public const int image = 2131492920;
 			
-			// aapt resource value: 0x7F0C000C
-			public const int info = 2131492876;
+			// aapt resource value: 0x7F020025
+			public const int info = 2130837541;
 			
-			// aapt resource value: 0x7F0C000D
-			public const int italic = 2131492877;
+			// aapt resource value: 0x7F020037
+			public const int italic = 2130837559;
 			
 			// aapt resource value: 0x7F0C003B
 			public const int item_touch_helper_previous_elevation = 2131492923;
@@ -2529,11 +2529,11 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C003D
 			public const int left = 2131492925;
 			
-			// aapt resource value: 0x7F0C000E
-			public const int line1 = 2131492878;
+			// aapt resource value: 0x7F020038
+			public const int line1 = 2130837560;
 			
-			// aapt resource value: 0x7F0C000F
-			public const int line3 = 2131492879;
+			// aapt resource value: 0x7F020039
+			public const int line3 = 2130837561;
 			
 			// aapt resource value: 0x7F0C0040
 			public const int listMode = 2131492928;
@@ -2562,17 +2562,17 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C0048
 			public const int none = 2131492936;
 			
-			// aapt resource value: 0x7F0C0010
-			public const int normal = 2131492880;
+			// aapt resource value: 0x7F020036
+			public const int normal = 2130837558;
 			
-			// aapt resource value: 0x7F0C0011
-			public const int notification_background = 2131492881;
+			// aapt resource value: 0x7F020029
+			public const int notification_background = 2130837545;
 			
-			// aapt resource value: 0x7F0C0012
-			public const int notification_main_column = 2131492882;
+			// aapt resource value: 0x7F020023
+			public const int notification_main_column = 2130837539;
 			
-			// aapt resource value: 0x7F0C0013
-			public const int notification_main_column_container = 2131492883;
+			// aapt resource value: 0x7F020021
+			public const int notification_main_column_container = 2130837537;
 			
 			// aapt resource value: 0x7F0C004D
 			public const int parallax = 2131492941;
@@ -2601,11 +2601,11 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C0054
 			public const int right = 2131492948;
 			
-			// aapt resource value: 0x7F0C0014
-			public const int right_icon = 2131492884;
+			// aapt resource value: 0x7F020026
+			public const int right_icon = 2130837542;
 			
-			// aapt resource value: 0x7F0C0015
-			public const int right_side = 2131492885;
+			// aapt resource value: 0x7F020024
+			public const int right_side = 2130837540;
 			
 			// aapt resource value: 0x7F0C0057
 			public const int save_image_matrix = 2131492951;
@@ -2709,14 +2709,14 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C0077
 			public const int tabMode = 2131492983;
 			
-			// aapt resource value: 0x7F0C0016
-			public const int tag_transition_group = 2131492886;
+			// aapt resource value: 0x7F020040
+			public const int tag_transition_group = 2130837568;
 			
-			// aapt resource value: 0x7F0C0017
-			public const int text = 2131492887;
+			// aapt resource value: 0x7F020041
+			public const int text = 2130837569;
 			
-			// aapt resource value: 0x7F0C0018
-			public const int text2 = 2131492888;
+			// aapt resource value: 0x7F020042
+			public const int text2 = 2130837570;
 			
 			// aapt resource value: 0x7F020012
 			public const int textInputEditText1 = 2130837522;
@@ -2739,11 +2739,11 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
 			
-			// aapt resource value: 0x7F0C0019
-			public const int time = 2131492889;
+			// aapt resource value: 0x7F020028
+			public const int time = 2130837544;
 			
-			// aapt resource value: 0x7F0C001A
-			public const int title = 2131492890;
+			// aapt resource value: 0x7F020043
+			public const int title = 2130837571;
 			
 			// aapt resource value: 0x7F0C0082
 			public const int titleDividerNoCustom = 2131492994;
@@ -2854,8 +2854,8 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0D0009
 			public const int show_password_duration = 2131558409;
 			
-			// aapt resource value: 0x7F0D0001
-			public const int status_bar_notification_info_maxnum = 2131558401;
+			// aapt resource value: 0x7F120002
+			public const int status_bar_notification_info_maxnum = 2131886082;
 			
 			static Integer()
 			{
@@ -3002,11 +3002,11 @@ namespace FragmentSample
 			// aapt resource value: 0x7F030005
 			public const int Notesrow = 2130903045;
 			
-			// aapt resource value: 0x7F0F0001
-			public const int notification_action = 2131689473;
+			// aapt resource value: 0x7F030006
+			public const int notification_action = 2130903046;
 			
-			// aapt resource value: 0x7F0F0002
-			public const int notification_action_tombstone = 2131689474;
+			// aapt resource value: 0x7F030007
+			public const int notification_action_tombstone = 2130903047;
 			
 			// aapt resource value: 0x7F0F002B
 			public const int notification_media_action = 2131689515;
@@ -3026,11 +3026,11 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0F0030
 			public const int notification_template_big_media_narrow_custom = 2131689520;
 			
-			// aapt resource value: 0x7F0F0003
-			public const int notification_template_custom_big = 2131689475;
+			// aapt resource value: 0x7F030008
+			public const int notification_template_custom_big = 2130903048;
 			
-			// aapt resource value: 0x7F0F0004
-			public const int notification_template_icon_group = 2131689476;
+			// aapt resource value: 0x7F030009
+			public const int notification_template_icon_group = 2130903049;
 			
 			// aapt resource value: 0x7F0F0033
 			public const int notification_template_lines_media = 2131689523;
@@ -3041,11 +3041,11 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0F0035
 			public const int notification_template_media_custom = 2131689525;
 			
-			// aapt resource value: 0x7F0F0005
-			public const int notification_template_part_chronometer = 2131689477;
+			// aapt resource value: 0x7F030010
+			public const int notification_template_part_chronometer = 2130903056;
 			
-			// aapt resource value: 0x7F0F0006
-			public const int notification_template_part_time = 2131689478;
+			// aapt resource value: 0x7F030011
+			public const int notification_template_part_time = 2130903057;
 			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
@@ -3293,8 +3293,8 @@ namespace FragmentSample
 			// aapt resource value: 0x7F150026
 			public const int search_menu_title = 2132082726;
 			
-			// aapt resource value: 0x7F150001
-			public const int status_bar_notification_info_overflow = 2132082689;
+			// aapt resource value: 0x7F070024
+			public const int status_bar_notification_info_overflow = 2131165220;
 			
 			static String()
 			{
@@ -4047,17 +4047,17 @@ namespace FragmentSample
 			// aapt resource value: 0x7F1600F5
 			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2132148469;
 			
-			// aapt resource value: 0x7F160001
-			public const int TextAppearance_Compat_Notification = 2132148225;
+			// aapt resource value: 0x7F080003
+			public const int TextAppearance_Compat_Notification = 2131230723;
 			
-			// aapt resource value: 0x7F160002
-			public const int TextAppearance_Compat_Notification_Info = 2132148226;
+			// aapt resource value: 0x7F080004
+			public const int TextAppearance_Compat_Notification_Info = 2131230724;
 			
 			// aapt resource value: 0x7F1600F8
 			public const int TextAppearance_Compat_Notification_Info_Media = 2132148472;
 			
-			// aapt resource value: 0x7F160003
-			public const int TextAppearance_Compat_Notification_Line2 = 2132148227;
+			// aapt resource value: 0x7F080005
+			public const int TextAppearance_Compat_Notification_Line2 = 2131230725;
 			
 			// aapt resource value: 0x7F1600FA
 			public const int TextAppearance_Compat_Notification_Line2_Media = 2132148474;
@@ -4065,14 +4065,14 @@ namespace FragmentSample
 			// aapt resource value: 0x7F1600FB
 			public const int TextAppearance_Compat_Notification_Media = 2132148475;
 			
-			// aapt resource value: 0x7F160004
-			public const int TextAppearance_Compat_Notification_Time = 2132148228;
+			// aapt resource value: 0x7F080006
+			public const int TextAppearance_Compat_Notification_Time = 2131230726;
 			
 			// aapt resource value: 0x7F1600FD
 			public const int TextAppearance_Compat_Notification_Time_Media = 2132148477;
 			
-			// aapt resource value: 0x7F160005
-			public const int TextAppearance_Compat_Notification_Title = 2132148229;
+			// aapt resource value: 0x7F080007
+			public const int TextAppearance_Compat_Notification_Title = 2131230727;
 			
 			// aapt resource value: 0x7F1600FF
 			public const int TextAppearance_Compat_Notification_Title_Media = 2132148479;
@@ -4425,11 +4425,11 @@ namespace FragmentSample
 			// aapt resource value: 0x7F160173
 			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2132148595;
 			
-			// aapt resource value: 0x7F160006
-			public const int Widget_Compat_NotificationActionContainer = 2132148230;
+			// aapt resource value: 0x7F080008
+			public const int Widget_Compat_NotificationActionContainer = 2131230728;
 			
-			// aapt resource value: 0x7F160007
-			public const int Widget_Compat_NotificationActionText = 2132148231;
+			// aapt resource value: 0x7F080009
+			public const int Widget_Compat_NotificationActionText = 2131230729;
 			
 			// aapt resource value: 0x7F160176
 			public const int Widget_Design_AppBarLayout = 2132148598;
@@ -5568,56 +5568,56 @@ namespace FragmentSample
 			public const int FloatingActionButton_useCompatPadding = 7;
 			
 			public static int[] FontFamily = new int[] {
-					2130968578,
-					2130968579,
-					2130968580,
-					2130968581,
-					2130968582,
-					2130968583};
+					0,
+					0,
+					0,
+					0,
+					0,
+					0};
 			
 			public static int[] FontFamilyFont = new int[] {
-					16844082,
-					16844095,
-					16844083,
-					2130968577,
-					2130968584,
-					2130968585};
+					0,
+					0,
+					0,
+					0,
+					0,
+					0};
+			
+			// aapt resource value: 0x7F090013
+			public const int FontFamilyFont_android_font = 2131296275;
+			
+			// aapt resource value: 0x7F090012
+			public const int FontFamilyFont_android_fontStyle = 2131296274;
+			
+			// aapt resource value: 0x7F090014
+			public const int FontFamilyFont_android_fontWeight = 2131296276;
 			
 			// aapt resource value: 0x7F090010
-			public const int FontFamilyFont_android_font = 2131296272;
+			public const int FontFamilyFont_font = 2131296272;
 			
-			// aapt resource value: 0x1
-			public const int FontFamilyFont_android_fontStyle = 1;
+			// aapt resource value: 0x7F090009
+			public const int FontFamilyFont_fontStyle = 2131296265;
 			
-			// aapt resource value: 0x2
-			public const int FontFamilyFont_android_fontWeight = 2;
+			// aapt resource value: 0x7F090011
+			public const int FontFamilyFont_fontWeight = 2131296273;
 			
-			// aapt resource value: 0x3
-			public const int FontFamilyFont_font = 3;
+			// aapt resource value: 0x7F090002
+			public const int FontFamily_fontProviderAuthority = 2131296258;
 			
-			// aapt resource value: 0x4
-			public const int FontFamilyFont_fontStyle = 4;
+			// aapt resource value: 0x7F090005
+			public const int FontFamily_fontProviderCerts = 2131296261;
 			
-			// aapt resource value: 0x5
-			public const int FontFamilyFont_fontWeight = 5;
+			// aapt resource value: 0x7F090006
+			public const int FontFamily_fontProviderFetchStrategy = 2131296262;
+			
+			// aapt resource value: 0x7F090007
+			public const int FontFamily_fontProviderFetchTimeout = 2131296263;
 			
 			// aapt resource value: 0x7F090003
-			public const int FontFamily_fontProviderAuthority = 2131296259;
+			public const int FontFamily_fontProviderPackage = 2131296259;
 			
-			// aapt resource value: 0x1
-			public const int FontFamily_fontProviderCerts = 1;
-			
-			// aapt resource value: 0x2
-			public const int FontFamily_fontProviderFetchStrategy = 2;
-			
-			// aapt resource value: 0x3
-			public const int FontFamily_fontProviderFetchTimeout = 3;
-			
-			// aapt resource value: 0x4
-			public const int FontFamily_fontProviderPackage = 4;
-			
-			// aapt resource value: 0x5
-			public const int FontFamily_fontProviderQuery = 5;
+			// aapt resource value: 0x7F090004
+			public const int FontFamily_fontProviderQuery = 2131296260;
 			
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
