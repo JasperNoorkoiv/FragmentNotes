@@ -66,9 +66,9 @@ namespace FragmentSample
             // delete note
             deleteButton.Click += delegate
             {
-                {
-                    deleteButton.Click += delegate { databaseHelper.DeleteNote(NoteId + 1); StartActivity(intent); };
-                };
+                var allNotes = databaseHelper.GetAllNotes();
+                var curNote = allNotes.ElementAt(NoteId);
+                databaseHelper.DeleteNote(curNote.ID); StartActivity(intent);
             };
             var NoteList = databaseHelper.GetAllNotes().ToList();
             var result = NoteList[NoteId];
