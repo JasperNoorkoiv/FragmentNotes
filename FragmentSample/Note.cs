@@ -16,7 +16,7 @@ namespace FragmentSample
 {
     public class Note
     {
-        [PrimaryKey, AutoIncrement, Column("_id")]
+        [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
         [MaxLength(255)]
         public string Title { get; set; }

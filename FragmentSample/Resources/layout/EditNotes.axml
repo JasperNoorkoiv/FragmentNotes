@@ -44,6 +44,12 @@
 		android:text="Updated: Nov 28, 2018 22:14"
 		android:textColor="@color/material_grey_800"
 		android:id="@+id/txtNoteDate" />
+		<Button
+		Clicked="EditButton_Clicked"
+		android:text="Edit"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/button_edit" />
 	<Button
 		Clicked="DeleteButton_Clicked"
 		android:text="Delete"

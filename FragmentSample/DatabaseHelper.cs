@@ -17,7 +17,7 @@ namespace FragmentSample
     public class DatabaseHelper
     {
         SQLiteConnection db;
-        string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myNotes3.db3");
+        string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myNotes4.db3");
 
         public DatabaseHelper()
         {
@@ -46,9 +46,7 @@ namespace FragmentSample
 
         public void DeleteNote(int id)
         {
-            var note = new Note();
-            note.ID = id;
-            db.Delete(note);
+            db.Delete<Note>(id);
         }
         public void EditNote(int id, string title, string content)
         {

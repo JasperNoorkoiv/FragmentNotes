@@ -2463,11 +2463,11 @@ namespace FragmentSample
 			// aapt resource value: 0x7f080063
 			public const int buttonPanel = 2131230819;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int button_delete = 2131230883;
+			// aapt resource value: 0x7f0800a4
+			public const int button_delete = 2131230884;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int button_edit = 2131230885;
+			// aapt resource value: 0x7f0800a3
+			public const int button_edit = 2131230883;
 			
 			// aapt resource value: 0x7f080091
 			public const int button_save = 2131230865;
@@ -2910,8 +2910,8 @@ namespace FragmentSample
 			// aapt resource value: 0x7f080026
 			public const int useLogo = 2131230758;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int viewSwitcher1 = 2131230884;
+			// aapt resource value: 0x7f0800a5
+			public const int viewSwitcher1 = 2131230885;
 			
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;

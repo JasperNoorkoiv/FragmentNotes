@@ -772,8 +772,8 @@ int id beginning 0x7f08002f
 int id blocking 0x7f080057
 int id bottom 0x7f08003d
 int id buttonPanel 0x7f080063
-int id button_delete 0x7f0800a3
-int id button_edit 0x7f0800a5
+int id button_delete 0x7f0800a4
+int id button_edit 0x7f0800a3
 int id button_save 0x7f080091
 int id cancel_action 0x7f0800ac
 int id center 0x7f080045
@@ -921,7 +921,7 @@ int id txtNote_edit 0x7f08008f
 int id uniform 0x7f08002d
 int id up 0x7f080009
 int id useLogo 0x7f080026
-int id viewSwitcher1 0x7f0800a4
+int id viewSwitcher1 0x7f0800a5
 int id view_offset_helper 0x7f080016
 int id visible 0x7f0800bc
 int id withText 0x7f08003c
