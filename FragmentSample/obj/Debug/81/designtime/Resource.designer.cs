@@ -1389,8 +1389,8 @@ namespace FragmentSample
 			// aapt resource value: 0x7F06003A
 			public const int highlighted_text_material_light = 2131099706;
 			
-			// aapt resource value: 0x7F060005
-			public const int ic_launcher_background = 2131099653;
+			// aapt resource value: 0x7F060006
+			public const int ic_launcher_background = 2131099654;
 			
 			// aapt resource value: 0x7F06003B
 			public const int material_blue_grey_800 = 2131099707;
@@ -1478,6 +1478,9 @@ namespace FragmentSample
 			
 			// aapt resource value: 0x7F060057
 			public const int secondary_text_disabled_material_light = 2131099735;
+			
+			// aapt resource value: 0x7F060005
+			public const int splash_background = 2131099653;
 			
 			// aapt resource value: 0x7F060058
 			public const int switch_thumb_disabled_material_dark = 2131099736;
@@ -2276,6 +2279,9 @@ namespace FragmentSample
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
 			
+			// aapt resource value: 0x7F010004
+			public const int NoteBook-800x800 = 2130771972;
+			
 			// aapt resource value: 0x7F090001
 			public const int notification_action_background = 2131296257;
 			
@@ -2312,8 +2318,14 @@ namespace FragmentSample
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010004
-			public const int plusnote = 2130771972;
+			// aapt resource value: 0x7F010005
+			public const int plusnote = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int splash = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int splash_screen = 2130771975;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -3330,6 +3342,15 @@ namespace FragmentSample
 			// aapt resource value: 0x7F080002
 			public const int AppTheme = 2131230722;
 			
+			// aapt resource value: 0x7F080004
+			public const int AppTheme_AppBarOverlay = 2131230724;
+			
+			// aapt resource value: 0x7F080003
+			public const int AppTheme_NoActionBar = 2131230723;
+			
+			// aapt resource value: 0x7F080005
+			public const int AppTheme_PopupOverlay = 2131230725;
+			
 			// aapt resource value: 0x7F160007
 			public const int Base_AlertDialog_AppCompat = 2132148231;
 			
@@ -3818,6 +3839,9 @@ namespace FragmentSample
 			
 			// aapt resource value: 0x7F1600A9
 			public const int Base_Widget_Design_TabLayout = 2132148393;
+			
+			// aapt resource value: 0x7F080006
+			public const int MyTheme_Splash = 2131230726;
 			
 			// aapt resource value: 0x7F1600AA
 			public const int Platform_AppCompat = 2132148394;
