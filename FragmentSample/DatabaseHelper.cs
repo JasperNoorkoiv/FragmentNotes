@@ -48,19 +48,11 @@ namespace FragmentSample
         {
             db.Delete<Note>(id);
         }
-        public void EditNote(int id, string title, string content)
+        public void EditNote(Note note)
         {
-            var allnotes = GetAllNotes();
-            var query = from ord in allnotes
-                        where ord.ID == id
-                        select ord;
-            foreach (Note note in query)
-            {
-                note.ID = id;
-                note.Title = title;
-                note.Content = content;
-                db.Update(note);
-            }
+           
+             db.Update(note);
+           
         }
     }
 }

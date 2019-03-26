@@ -33,7 +33,6 @@ C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res\
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res\mipmap-xxxhdpi\ic_launcher_foreground.png
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res\mipmap-xxxhdpi\ic_launcher_round.png
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res\layout-land\activity_main.xml
-C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res\layout\notesrow.xml
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res\layout\editnotes.xml
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res\layout\createnotes.xml
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res\menu\menu_main.xml

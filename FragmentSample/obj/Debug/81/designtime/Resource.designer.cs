@@ -2279,9 +2279,6 @@ namespace FragmentSample
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
 			
-			// aapt resource value: 0x7F010004
-			public const int NoteBook-800x800 = 2130771972;
-			
 			// aapt resource value: 0x7F090001
 			public const int notification_action_background = 2131296257;
 			
@@ -2318,14 +2315,14 @@ namespace FragmentSample
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
+			// aapt resource value: 0x7F010004
+			public const int plusnote = 2130771972;
+			
 			// aapt resource value: 0x7F010005
-			public const int plusnote = 2130771973;
+			public const int splash = 2130771973;
 			
 			// aapt resource value: 0x7F010006
-			public const int splash = 2130771974;
-			
-			// aapt resource value: 0x7F010007
-			public const int splash_screen = 2130771975;
+			public const int splash_screen = 2130771974;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -2409,8 +2406,8 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C0015
 			public const int add = 2131492885;
 			
-			// aapt resource value: 0x7F020017
-			public const int AddNote = 2130837527;
+			// aapt resource value: 0x7F020015
+			public const int AddNote = 2130837525;
 			
 			// aapt resource value: 0x7F0C0016
 			public const int alertTitle = 2131492886;
@@ -2430,11 +2427,11 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
 			
-			// aapt resource value: 0x7F020010
-			public const int button_delete = 2130837520;
+			// aapt resource value: 0x7F020011
+			public const int button_delete = 2130837521;
 			
-			// aapt resource value: 0x7F020009
-			public const int button_edit = 2130837513;
+			// aapt resource value: 0x7F020010
+			public const int button_edit = 2130837520;
 			
 			// aapt resource value: 0x7F020005
 			public const int button_save = 2130837509;
@@ -2598,8 +2595,8 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
 			
-			// aapt resource value: 0x7F020015
-			public const int playquote_container = 2130837525;
+			// aapt resource value: 0x7F020013
+			public const int playquote_container = 2130837523;
 			
 			// aapt resource value: 0x7F0C0051
 			public const int progress_circular = 2131492945;
@@ -2643,8 +2640,8 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C005D
 			public const int scrollView = 2131492957;
 			
-			// aapt resource value: 0x7F020016
-			public const int scrollView1 = 2130837526;
+			// aapt resource value: 0x7F020014
+			public const int scrollView1 = 2130837524;
 			
 			// aapt resource value: 0x7F0C005F
 			public const int search_badge = 2131492959;
@@ -2730,12 +2727,6 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C0018
 			public const int text2 = 2131492888;
 			
-			// aapt resource value: 0x7F020012
-			public const int textInputEditText1 = 2130837522;
-			
-			// aapt resource value: 0x7F020013
-			public const int textInputEditText2 = 2130837523;
-			
 			// aapt resource value: 0x7F0C007E
 			public const int textinput_counter = 2131492990;
 			
@@ -2790,17 +2781,17 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C008B
 			public const int transition_transform = 2131493003;
 			
-			// aapt resource value: 0x7F020014
-			public const int two_fragments_layout = 2130837524;
-			
-			// aapt resource value: 0x7F020006
-			public const int txtNote = 2130837510;
-			
-			// aapt resource value: 0x7F020008
-			public const int txtNoteDate = 2130837512;
+			// aapt resource value: 0x7F020012
+			public const int two_fragments_layout = 2130837522;
 			
 			// aapt resource value: 0x7F020007
-			public const int txtNoteGlimpse = 2130837511;
+			public const int txtNote = 2130837511;
+			
+			// aapt resource value: 0x7F020009
+			public const int txtNoteDate = 2130837513;
+			
+			// aapt resource value: 0x7F020008
+			public const int txtNoteGlimpse = 2130837512;
 			
 			// aapt resource value: 0x7F020004
 			public const int txtNoteGlimpse_edit = 2130837508;
@@ -2814,8 +2805,8 @@ namespace FragmentSample
 			// aapt resource value: 0x7F0C008D
 			public const int up = 2131493005;
 			
-			// aapt resource value: 0x7F020011
-			public const int viewSwitcher1 = 2130837521;
+			// aapt resource value: 0x7F020006
+			public const int viewSwitcher1 = 2130837510;
 			
 			// aapt resource value: 0x7F0C008E
 			public const int view_offset_helper = 2131493006;
@@ -3010,9 +3001,6 @@ namespace FragmentSample
 			
 			// aapt resource value: 0x7F030004
 			public const int EditNotes = 2130903044;
-			
-			// aapt resource value: 0x7F030005
-			public const int Notesrow = 2130903045;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;

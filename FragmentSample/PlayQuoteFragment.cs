@@ -11,6 +11,7 @@ using Android.Support.V7.App;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using SQLite;
 
 namespace FragmentSample
 {
@@ -18,6 +19,9 @@ namespace FragmentSample
     {
         public int NoteId => Arguments.GetInt("current_note_id", 0);
         DatabaseHelper databaseHelper = new DatabaseHelper();
+
+        EditText editNote;
+        EditText editTitle;
 
         public static PlayQuoteFragment NewInstance(int noteId)
         {
@@ -47,21 +51,28 @@ namespace FragmentSample
             Button deleteButton = view.FindViewById<Button>(Resource.Id.button_delete);
 
             // second view items
-            EditText editTitle = view.FindViewById<EditText>(Resource.Id.textInputEditText1);
-            EditText editNote = view.FindViewById<EditText>(Resource.Id.textInputEditText2);
+            EditText editTitle = view.FindViewById<EditText>(Resource.Id.txtNote);
+            EditText editNote = view.FindViewById<EditText>(Resource.Id.txtNoteGlimpse);
+            if (editTitle != null)
+            {
+                this.editTitle = editTitle;
+                this.editNote = editNote;
+            }
+
             Button saveEditButton = view.FindViewById<Button>(Resource.Id.button_edit);
 
             // switch to edit mode
-            editButton.Click += delegate { switcher.ShowNext(); };
+            editButton.Click += delegate {
+                switcher.ShowNext();
+                var allNotes = databaseHelper.GetAllNotes();
+                var curNote = allNotes.ElementAt(NoteId);
+                EditButton_Clicked(curNote);
+            };
 
             // save edited note
             var intent = new Intent(Activity, typeof(MainActivity));
 
-            saveEditButton.Click += delegate
-            {
-                databaseHelper.EditNote(NoteId + 1, editTitle.Text, editNote.Text);
-                StartActivity(intent);
-            };
+
 
             // delete note
             deleteButton.Click += delegate
@@ -75,6 +86,18 @@ namespace FragmentSample
             textTitle.Text = result.Title;
             textNote.Text = result.Content;
             return view;
+        }
+
+        //edit note
+        public void EditButton_Clicked(Note note)
+        {
+            var intent = new Intent(Activity, typeof(MainActivity));
+
+            note.Title = editTitle.Text;
+            note.Content = editNote.Text;
+
+            databaseHelper.EditNote(note);
+            StartActivity(intent);
         }
     }
 }

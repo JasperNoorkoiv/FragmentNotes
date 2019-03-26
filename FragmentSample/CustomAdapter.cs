@@ -41,7 +41,7 @@ namespace FragmentSample
         {
             View view = convertView;
             if (view == null)
-                view = context.LayoutInflater.Inflate(Resource.Layout.Notesrow, null);
+                view = context.LayoutInflater.Inflate(Resource.Layout.EditNotes, null);
 
             position = (items.Count - 1) - position;
 
