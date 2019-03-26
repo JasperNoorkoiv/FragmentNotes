@@ -17,7 +17,7 @@ namespace FragmentSample
     public class DatabaseHelper
     {
         SQLiteConnection db;
-        string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myNotes4.db3");
+        string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myNotes5.db3");
 
         public DatabaseHelper()
         {
@@ -50,9 +50,7 @@ namespace FragmentSample
         }
         public void EditNote(Note note)
         {
-           
              db.Update(note);
-           
         }
     }
 }

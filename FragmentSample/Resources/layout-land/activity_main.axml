@@ -4,22 +4,15 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-	<fragment		
+	<fragment
 		android:name="FragmentSample.TitlesFragment"
 		android:id="@+id/titles"
-		android:layout_weight="1"
+		android:layout_weight="0.5"
 		android:layout_width="0px"
 		android:layout_height="match_parent"/>
 	<FrameLayout
-		android:id="@+id/playquote_container"
 		android:layout_weight="1"
 		android:layout_width="0px"
-		android:layout_height="match_parent">
-		<ScrollView
-			android:minWidth="25px"
-			android:minHeight="25px"
-			android:layout_width="match_parent"
-			android:layout_height="match_parent"
-			android:id="@+id/scrollView1" />
-	</FrameLayout>
+		android:layout_height="match_parent"
+		android:id="@+id/playnote_container" />
 </LinearLayout>

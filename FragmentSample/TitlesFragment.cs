@@ -37,7 +37,7 @@ namespace FragmentSample
                 selectedPlayId = savedInstanceState.GetInt("current_play_id", 0);
             }
 
-            var quoteContainer = Activity.FindViewById(Resource.Id.playquote_container);
+            var quoteContainer = Activity.FindViewById(Resource.Id.playnote_container);
             showingTwoFragments = quoteContainer != null && 
                 quoteContainer.Visibility == ViewStates.Visible;
 
@@ -65,17 +65,17 @@ namespace FragmentSample
             if(showingTwoFragments)
             {
                 ListView.SetItemChecked(selectedPlayId, true);
-                var playQuoteFragment = FragmentManager.FindFragmentById(Resource.Id.playquote_container)
+                var playQuoteFragment = FragmentManager.FindFragmentById(Resource.Id.playnote_container)
                     as PlayQuoteFragment;
 
-                if(playQuoteFragment == null || playQuoteFragment.NoteId != playId)
+                if(playQuoteFragment == null || playQuoteFragment.NoteId != playId )
                 {
 
-                    var container = Activity.FindViewById(Resource.Id.playquote_container);
+                    var container = Activity.FindViewById(Resource.Id.playnote_container);
                     var quoteFrag = PlayQuoteFragment.NewInstance(selectedPlayId);
 
                     FragmentTransaction ft = FragmentManager.BeginTransaction();
-                    ft.Replace(Resource.Id.playquote_container, quoteFrag);
+                    ft.Replace(Resource.Id.playnote_container, quoteFrag);
                     ft.Commit();
                 }
             }

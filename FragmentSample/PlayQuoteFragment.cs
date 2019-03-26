@@ -82,6 +82,9 @@ namespace FragmentSample
                 databaseHelper.DeleteNote(curNote.ID); StartActivity(intent);
             };
             var NoteList = databaseHelper.GetAllNotes().ToList();
+            if (NoteList.Count == 0)
+                return null;
+
             var result = NoteList[NoteId];
             textTitle.Text = result.Title;
             textNote.Text = result.Content;

@@ -16,7 +16,7 @@ using Microsoft.AppCenter.Distribute;
 
 namespace FragmentSample
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme" )]
     public class MainActivity : AppCompatActivity
     {   
         DatabaseHelper databaseHelper = new DatabaseHelper();
