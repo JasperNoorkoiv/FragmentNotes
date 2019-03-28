@@ -2279,6 +2279,9 @@ namespace FragmentSample
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
 			
+			// aapt resource value: 0x7F010004
+			public const int notebooklogo = 2130771972;
+			
 			// aapt resource value: 0x7F090001
 			public const int notification_action_background = 2131296257;
 			
@@ -2315,14 +2318,14 @@ namespace FragmentSample
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010004
-			public const int plusnote = 2130771972;
-			
 			// aapt resource value: 0x7F010005
-			public const int splash = 2130771973;
+			public const int plusnote = 2130771973;
 			
 			// aapt resource value: 0x7F010006
-			public const int splash_screen = 2130771974;
+			public const int splash = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int splash_screen = 2130771975;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;

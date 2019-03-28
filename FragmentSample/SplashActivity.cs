@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace FragmentSample
 {
-    [Activity(Label = "Notebook", MainLauncher = true)]
+    [Activity(Label = "Notebook", Icon = "@drawable/notebooklogo", MainLauncher = true)]
     public class SplashActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

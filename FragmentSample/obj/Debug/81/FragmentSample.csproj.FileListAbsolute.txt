@@ -98,3 +98,4 @@ C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\andr
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\android\assets\System.Xml.pdb
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res\drawable\splash_screen.xml
 C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res\drawable\splash.png
+C:\Users\opilane\Documents\GitHub\FragmentNotes\FragmentSample\obj\Debug\81\res\drawable\notebooklogo.png

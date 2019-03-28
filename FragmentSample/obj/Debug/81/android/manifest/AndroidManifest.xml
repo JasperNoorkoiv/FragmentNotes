@@ -7,7 +7,7 @@
     <activity android:label="CreateNotesActivity" android:name="md59c9a5eaaf2b824733f5692f2f0febea8.CreateNotesActivity" />
     <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="md59c9a5eaaf2b824733f5692f2f0febea8.MainActivity" />
     <activity android:label="PlayQuoteActivity" android:name="md59c9a5eaaf2b824733f5692f2f0febea8.PlayQuoteActivity" />
-    <activity android:label="Notebook" android:name="md59c9a5eaaf2b824733f5692f2f0febea8.SplashActivity">
+    <activity android:icon="@drawable/notebooklogo" android:label="Notebook" android:name="md59c9a5eaaf2b824733f5692f2f0febea8.SplashActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
