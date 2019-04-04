@@ -24,8 +24,11 @@ namespace FragmentSample
         List<string> NoteList = new List<string>(Notes);
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            AppCenter.Start("5bdb87e5-6c27-4009-9226-fa2b92e0beb0", typeof(Distribute));
-            AppCenter.Start("5bdb87e5-6c27-4009-9226-fa2b92e0beb0", typeof(Analytics), typeof(Crashes));
+            //AppCenter.Start("5bdb87e5-6c27-4009-9226-fa2b92e0beb0", typeof(Distribute));
+            //AppCenter.Start("5bdb87e5-6c27-4009-9226-fa2b92e0beb0", typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("75171bf8-d9bf-4172-88e1-8e5dbaddbbc6",
+            typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("75171bf8-d9bf-4172-88e1-8e5dbaddbbc6", typeof(Analytics), typeof(Crashes));
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.activity_main);
